@@ -1,0 +1,47 @@
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Las reglas aplican al servidor y los mensajes directos.\nSi tenéis preguntas o necesitan reportar a alguien pueden enviar un mensaje directo al bot <@463364532610269185>.\nToda situación podrá ser sancionda de ser necesario, aunque no esté explicado en las reglas.\nLos intercambios corren por vuestra propia responsabilidad.\nLos [Términos del servicio](https://discordapp.com/terms) y las [Directivas de la comunidad](https://discordapp.com/guidelines) de Discord también se aplican aquí.",
+  "embeds": [
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Usa los canales de texto y voz correctamente",
+        "icon_url": "{{numberOneImage}}"
+      },
+      "description": "Lee el tema de cada canal para saber cuál es su uso, si no sabes cómo encontrarlo haz clic [aquí](https://i.imgur.com/ZU5VM4S.png).\nNo agregues canciones con una duración exagerada (10+ minutos) o que no cumpla con las reglas si estás con otros miembros."
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "No hagas spam",
+        "icon_url": "{{numberTwoImage}}"
+      },
+      "description": "Consideramos spam a los mensajes no deseados como publicidad, auto-promoción, invitaciones a servidores, etc.\nNo se permite reclutar para clanes o equipos, pedir o preguntar por grupos/servidores ni cualquier otro tipo de spam."
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Sé respetuoso y no molestes, faltes el respeto ni acoses a los demás",
+        "icon_url": "{{numberThreeImage}}"
+      },
+      "description": "No se permiten las palabras malsonantes en exceso, el exceso de mensajes sin sentido (flood) ni los comentarios y comportamientos tóxicos e inapropiados.\nNo se permite enviar contenido discriminativo o inapropiado."
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "No te hagas pasar por alguien más ni uses imágenes de perfil inapropiadas",
+        "icon_url": "{{numberFourImage}}"
+      },
+      "description": "No se permiten nombres de usuarios/apodos inapropiados, irrespetuosos o que puedan ser considerados spam."
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Si compartes información personal hazlo bajo tu propia responsabilidad",
+        "icon_url": "{{numberFiveImage}}"
+      },
+      "description": "No se permite compartir correo electrónico, dirección ni número de teléfono, tampoco compartir información personal de otros.\nPueden haber excepciones y restricciones no explicadas aquí."
+    }
+  ]
+}
