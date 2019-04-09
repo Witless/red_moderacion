@@ -1,0 +1,80 @@
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Aquí tenéis algunos de los comandos de cada bot del servidor. Recordad que se usan en el canal <#{{botsChannelID}}>.\n\nLos campos entre corchetes son obligatorios\nLos campos entre paréntesis son opcionales\nSi un campo tiene varias opciones se separarán con **|**\n**Importante**: no escribas los corchetes, paréntesis, etc. al usar los comandos.",
+  "embeds": [
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Tatsumaki",
+      	"icon_url": "https://i.imgur.com/gfr3tfx.png"
+      },
+      "description": "`t!rank (nombre de usuario | ID)` - muestra tu score y ranking o el otro usuario\n`t!top (página)` - muestra el ranking del servidor\n`t!profile (nombre de usuario | ID)` - muestra tu perfil o el otro usuario\n`t!credits` - muestra la cantidad de créditos que tienes\n`t!daily` - consigue tus créditos diarios\n`t!slots` (cantidad de 1 a 500) - apuesta tus créditos\n`t!rep` - da reputación a otro usuario\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/tatsumaki>)**"
+    },
+    {
+      "author": {
+      	"name": "UnbelievaBoat",
+      	"icon_url": "https://i.imgur.com/FHYTGnq.png"
+      },
+      "description": "`=work` - trabaja para conseguir gemas\n`=crime` - comete un crimen para conseguir gemas\n`=rob [nombre de usuario | ID]` - trata de robar las gemas a otro miembro\n`=bal` - muestra la cantidad de gemas que tienes\n`=buy [rol a comprar]` - compra un rol\n`=shop` - muestra los roles disponibles para comprar\n`=bj [apuesta]` - juega al blackjack\n`=dep [cantidad | all]` - deposita gemas en el banco\n`=with [cantidad | all]` - saca gemas del banco\n`=roulette [apuesta] [espacio]` - apuesta gemas en la ruleta\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/unbelieva>)**",
+      "color": {{embedColor}}
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Vexera",
+      	"icon_url": "https://i.imgur.com/gwuzTXT.png"
+      },
+      "description": "`+play [canción]` - reproduce una canción\n`+search [canción]` - busca una canción para reproducirla\n`+np` - muestra la canción reproduciéndose\n`+queue (página)` - muestra la cola de reproducción\n`+skip` - salta la canción (o inicia una votación para saltarla)\n`+lyrics [canción]` - busca la letra de una canción\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/vexera>)**"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Rythm",
+      	"icon_url": "https://i.imgur.com/TQLvKtd.png"
+      },
+      "description": "`!play [canción]` - reproduce una canción\n`!search [canción]` - busca una canción en YouTube para reproducirla\n`!soundcloud [canción]` - busca una canción en SoundCloud para reproducirla\n`!np` - muestra la canción reproduciéndose\n`!queue (página)` - muestra la cola de reproducción\n`!lyrics [canción]` - busca la letra de una canción\n`!shuffle` - mezcla la cola de reproducción (solo funciona si no estás acompañado)\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/rythm>)**"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Otros comandos",
+      	"icon_url": "https://i.imgur.com/EtYqr8I.png"
+      },
+      "description": "`z/submit [sugerencia]` - envía una sugerencia para que sea votada"
+    }
+  ]
+}
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Aquí tenéis los roles disponibles para la comunidad, cómo conseguirlos y los beneficios de cada uno.\nTened en cuenta que no devolvemos roles si se pierden por abandonar el servidor.\nEl farmeo de puntos o gemas está prohibido.\nLas gemas se consiguen con el bot UnbelievaBoat, los comandos para conseguir gemas y comprar los roles están abajo.\nEl score sube a medida que envías mensajes en el servidor, al llegar a la cantidad de score requerido por el rol, lo conseguirás.",
+  "embeds": [
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Roles de gemas",
+        "icon_url": "http://i66.tinypic.com/2442zki.png"
+      },
+      "description": "- **__Ricos__**: :gem:55.000 - te da acceso a los canales <#{{starboardChannelID}}>, <#{{fanArtsChannelID}}>, <#{{spotifyChannelID}}>, <#{{memesChannelID}}> y <#{{colorsChannelID}}>\n- __Guapísimos__: :gem:8.800\n- __Vakypandy__: :gem:8.800"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Roles de score",
+        "icon_url": "http://i66.tinypic.com/2442zki.png"
+      },
+      "description": "- **__Dragones__**: 55.000 de score - te permite enviar archivos, añadir reacciones, aparecerás en una lista de miembros separada y tendrás acceso a los canales <#{{starboardChannelID}}>, <#{{fanArtsChannelID}}>, <#{{spotifyChannelID}}>, <#{{memesChannelID}}>, <#{{colorsChannelID}}> y los canales de sugerencias\n- **__Pegasos__**: 27.500 de score - te permite añadir reacciones, aparecerás en una lista de miembros separada y tendrás acceso a los canales <#{{starboardChannelID}}>, <#{{fanArtsChannelID}}>, <#{{spotifyChannelID}}>, <#{{memesChannelID}}>, <#{{colorsChannelID}}> y los canales de sugerencias\n- **__Unicornios__**: 11.000 de score - te da acceso a los canales <#{{starboardChannelID}}>, <#{{fanArtsChannelID}}>, <#{{spotifyChannelID}}>, <#{{memesChannelID}}>, <#{{colorsChannelID}}> y los canales de sugerencias\n- **__Sombra__**: 750 de score - te da acceso a los canales <#{{starboardChannelID}}>, <#{{fanArtsChannelID}}>, <#{{spotifyChannelID}}>, <#{{memesChannelID}}> y los canales de sugerencias"
+    }
+  ]
+}
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Este es el canal de información del servidor, aquí encontrarás los roles del servidor, los comandos de los bots e información sobre el sistema de soporte.\nTambién tenemos un registro de eventos al que puedes acceder haciendo clic [aquí](https://discordesnet.gitbook.io/home/updates/registro-de-eventos)"
+}
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Si queréis reportar a alguien o tenéis una pregunta sobre el servidor, podéis enviar un mensaje directo al bot <@{{supportBotID}}>.\nTened en cuenta que nosotros solo ayudamos con temas que tengan relación con el servidor y que no podemos responder preguntas como cuándo va a salir algún vídeo, cuándo será el próximo directo, etc.\n\n**El uso incorrecto o abuso del sistema de soporte será sancionado.**"
+}
