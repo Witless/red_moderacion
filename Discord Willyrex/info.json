@@ -1,0 +1,91 @@
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Este es el canal de información del servidor, aquí encontrarás los roles del servidor, los comandos de los bots e información sobre el sistema de soporte.\nTambién tenemos un registro de eventos al que puedes acceder haciendo clic [aquí](https://discordesnet.gitbook.io/home/updates/registro-de-eventos)"
+}
+
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Si queréis reportar a alguien o tenéis una pregunta sobre el servidor, podéis enviar un mensaje directo al bot <@{{supportBotID}}>.\nTened en cuenta que nosotros solo ayudamos con temas que tengan relación con el servidor y que no podemos responder preguntas como cuándo va a salir algún vídeo, cuándo será el próximo directo, etc.\n\n**El uso incorrecto o abuso del sistema de soporte será sancionado.**"
+}
+
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Aquí tenéis algunos de los comandos de cada bot del servidor. Recordad que se usan en el canal <#{{botsChannelID}}>.\n\nLos campos entre corchetes son obligatorios\nLos campos entre paréntesis son opcionales\nSi un campo tiene varias opciones se separarán con **|**\n**Importante**: no escribas los corchetes, paréntesis, etc. al usar los comandos.",
+  "embeds": [
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Tatsumaki",
+      	"icon_url": "https://i.imgur.com/gfr3tfx.png"
+      },
+      "description": "`t!rank (nombre de usuario | ID)` - muestra tu score y ranking o el otro usuario\n`t!top (página)` - muestra el ranking del servidor\n`t!profile (nombre de usuario | ID)` - muestra tu perfil o el otro usuario\n`t!credits` - muestra la cantidad de créditos que tienes\n`t!daily` - consigue tus créditos diarios\n`t!slots` (cantidad de 1 a 500) - apuesta tus créditos\n`t!rep` - da reputación a otro usuario\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/tatsumaki>)**"
+    },
+    {
+      "author": {
+      	"name": "UnbelievaBoat",
+      	"icon_url": "https://i.imgur.com/FHYTGnq.png"
+      },
+      "description": "`=work` - trabaja para conseguir gemas\n`=crime` - comete un crimen para conseguir gemas\n`=rob [nombre de usuario | ID]` - trata de robar las gemas a otro miembro\n`=bal` - muestra la cantidad de gemas que tienes\n`=buy [rol a comprar]` - compra un rol\n`=shop` - muestra los roles disponibles para comprar\n`=bj [apuesta]` - juega al blackjack\n`=dep [cantidad | all]` - deposita gemas en el banco\n`=with [cantidad | all]` - saca gemas del banco\n`=roulette [apuesta] [espacio]` - apuesta gemas en la ruleta\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/unbelieva>)**",
+      "color": {{embedColor}}
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Vexera",
+      	"icon_url": "https://i.imgur.com/gwuzTXT.png"
+      },
+      "description": "`+play [canción]` - reproduce una canción\n`+search [canción]` - busca una canción para reproducirla\n`+np` - muestra la canción reproduciéndose\n`+queue (página)` - muestra la cola de reproducción\n`+skip` - salta la canción (o inicia una votación para saltarla)\n`+lyrics [canción]` - busca la letra de una canción\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/vexera>)**"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Rythm",
+      	"icon_url": "https://i.imgur.com/TQLvKtd.png"
+      },
+      "description": "`!play [canción]` - reproduce una canción\n`!search [canción]` - busca una canción en YouTube para reproducirla\n`!soundcloud [canción]` - busca una canción en SoundCloud para reproducirla\n`!np` - muestra la canción reproduciéndose\n`!queue (página)` - muestra la cola de reproducción\n`!lyrics [canción]` - busca la letra de una canción\n`!shuffle` - mezcla la cola de reproducción (solo funciona si no estás acompañado)\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/rythm>)**"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "EasyFortniteStats",
+      	"icon_url": "https://i.imgur.com/oWprWsi.png"
+      },
+      "description": "`!fn` - Muestra las estadísticas de tu cuenta vinculada\n`!fn link [nombre]` - vincula tu cuenta de Discord con tu cuenta de Fortnite\n`!fn [usuario]` - Muestra las estadísticas de un usuario de Discord (si vinculó su cuenta) o de Fortnite\n`!fn challenge` - Muestra las soluciones de los desafíos semanales\n`!fn shop` - Muestra la tienda actual del juego\n`!fn map` - Muestra el mapa actual\n`!fn status` - Muestra el estado actual del servidor de Fortnite\n**[Más información y lista de comandos](<https://discordesnet.gitbook.io/home/bots/fortnite>)**"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+      	"name": "Otros comandos",
+      	"icon_url": "https://i.imgur.com/EtYqr8I.png"
+      },
+      "description": "`z/submit [sugerencia]` - envía una sugerencia para que sea votada"
+    }
+  ]
+}
+
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Aquí tenéis los roles disponibles para la comunidad, cómo conseguirlos y los beneficios de cada uno.\nTened en cuenta que no devolvemos roles si se pierden por abandonar el servidor.\nEl farmeo de puntos o gemas está prohibido.\nLas gemas se consiguen con el bot UnbelievaBoat, los comandos para conseguir gemas y comprar los roles están abajo.\nEl score sube a medida que envías mensajes en el servidor, al llegar a la cantidad de score requerido por el rol, lo conseguirás.\nTambién se hacen sorteos de corta duración en <#418590211803578391> donde puedes ganar gemas y score, pero hay que estar atento.",
+  "embeds": [
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Roles de gemas",
+        "icon_url": "http://i66.tinypic.com/2442zki.png"
+      },
+      "description": "- **__Ricos__**: :gem:55.000 - te da acceso a los canales <#{{starboardChannelID}}>, <#{{memesChannelID}}> y a los colores\n- **__Gamers__**: :gem:8.800 - te permite añadir reacciones y te da acceso a los canales <#{{starboardChannelID}}> y <#{{memesChannelID}}>"
+    },
+    {
+      "color": {{embedColor}},
+      "author": {
+        "name": "Roles de score",
+        "icon_url": "http://i66.tinypic.com/2442zki.png"
+      },
+      "description": "Los roles están ordenados de mayor a menor, solo se mencionan los beneficios se mantienen al conseguir un nuevo rol.\n\n- **__Batracio__**\n- **__Trotuman__**\n- **__Socorrista__**\n- **__T-rex__** - te permite enviar archivos, cambiar tu apodo y aparecerás en una lista de miembros separada\n- **__Rex__** - te da acceso a los colores\n- **__Mini Rex__** - te permite agregar reacciones\n- **__Creeper__** - te da acceso a los canales <#{{starboardChannelID}}>, <#{{memesChannelID}}> y los canales de sugerencias"
+    }
+  ]
+}
