@@ -1,0 +1,29 @@
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "embeds": [
+    {
+      "title": "LISTA DE ROLES ESPECIALES DEL SERVIDOR",
+      "description": "Aquí tenéis una pequeña lista de roles, cómo conseguirlos y los beneficios de cada uno.\nTodos estos roles harán que destaques en el servidor al aparecer en una lista arriba de los miembros.\nᅠ\n",
+      "color": {{embedColor}},
+      "fields": [
+        {
+        "name": "Beneficios de todos los roles",
+        "value": "Tener acceso a los canales de <#437692276731281428>, <#431208908544147458> y <#439126803529990144>.\nᅠ\n"
+        },
+        {
+        "name": "Roles de eventos",
+        "value": "> **Unicornios** - te da acceso al canal de sugerencias\n> **Suertudo** - te da acceso al canal de sugerencias\n\nEstos roles se consiguen en eventos del servidor.\nᅠ\n"
+        },
+        {
+        "name": "Roles de pago",
+        "value": "> **Ricos**: €50.000\n> **Guapísimos**: €25.000\n> **Vakypandy**: €8.000\n\nEstos roles se consiguen con dinero del bot **Unbelieva**, los comandos para conseguir dinero y comprar roles están en el canal <#449678836452294656>.\nᅠ\n"
+        },
+        {
+        "name": "Roles de score",
+        "value": "> **Dragones**: 50.000 de score - te permite enviar archivos en todos los canales, añadir reacciones y tener acceso al canal de sugerencias\n> **Pegasos**: 25.000 de score - te permite añadir reacciones y tener acceso al canal de sugerencias\n> **Unicornios**: 10.000 de score - te da acceso al canal de sugerencias\n\nEstos roles se consiguen al llegar a la cantidad de score requerido, tu score sube siendo activo en el servidor (enviando mensajes), puedes ver tu score con el comando `t!rank`.\nTen en cuenta que solo cuenta un mensaje cada dos minutos."
+        }
+      ]
+    }
+  ]
+}
