@@ -12,3 +12,4 @@ Discord servers affected by this license are the following:
 - discord.gg/elmayo97
 - discord.gg/freefirelatam
 
+The under license objects shown on this page were genuinely made by the Moderación_Network Team.
