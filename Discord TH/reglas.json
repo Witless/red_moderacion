@@ -1,0 +1,12 @@
+{
+  "username": "{{botName}}",
+  "avatar_url": "{{botAvatar}}",
+  "content": "Las reglas aplican al servidor y los mensajes directos.\nIntentad no advertir, explicar las reglas o hacer cualquier otra cosa que deba hacer un moderador, podéis desinformar a los demás y ser sancionados por eso.\nCualquier situación (especificada o no en las reglas) podrá ser sancionada a criterio de cada moderador.",
+  "embeds": [
+    {
+      "color": {{embedInvisibleColor}},
+      "description": "**[1] Usa los canales de texto y voz correctamente.**\nLee la descripción/tema de cada canal para saber cuál es su uso, si no sabes cómo encontrar la descripción/tema haz clic [aquí](https://i.imgur.com/ZU5VM4S.png).\nNo menciones sin una buena razón ni envíes mensajes en otros idiomas constantemente.\n\n**[2] No hagas spam ni flood**\n**SPAM**: mensajes no deseados como publicidad, auto-promoción (por ej. enlace a tu canal), invitaciones a servidores, etc.\nNo se permite reclutar para clanes o equipos, pedir o preguntar por grupos/servidores ni cualquier otro tipo de spam.\n**FLOOD**: mensajes que puedan interrumpir una conversación o molestar como muchos mensajes en poco tiempo, exceso de mayúsculas o emojis, mensajes sin sentido, etc.\n\n**[3] Sé respetuoso y no molestes, faltes el respeto ni acoses a los demás**\nNo se permiten las palabras malsonantes en exceso, los comentarios inapropiados ni los comportamientos tóxicos o inapropiados.\n\n**[4] No envíes contenido no apto para menores**\nNo se permite el contenido inapropiado, racista, sexista, xenófobo, etc.\n\n**[5] No te hagas pasar por alguien más ni uses imágenes de perfil inapropiadas**\nNo se permiten nombres de usuarios/apodos inapropiados, irrespetuosos, que no puedan mencionarse fácilmente, con emojis al inicio, con más de 2 emojis o que puedan ser considerados spam.\n\n**[6] Si compartes información personal hazlo bajo tu propia responsabilidad**\nNo se permite compartir correo electrónico, dirección ni número de teléfono, tampoco compartir información personal de otros.\nLos moderadores podrán limitar la información que se comparte.\n\n**[7] No comentes spoilers con la intención de molestar**\nSe permite el contenido relacionado con spoilers con más de 2 semanas de antigüedad.\n\n**[8] Respeta las [Directivas de la comunidad](https://discordapp.com/guidelines) y los [Términos del servicio de Discord](https://discordapp.com/terms)**",
+       "footer": {"text":"e2c4123"}
+    }
+  ]
+}
